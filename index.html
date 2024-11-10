@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Resume by Fatima Mudassir</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+</head>
+<body>
+    <div class="Build-container" id="resumeInputform" style="display: none;">
+
+        <h1>Resume Generator</h1>
+        <p>by Fatima Mudassir</p>
+
+        <div class="resume-container">
+            <!-- Section 1 -->
+            <div class="res-Colum1 common-colums">
+                <h2>personal information</h2>
+
+                <div class="form-group">
+                    <label for="namefield">your name</label>
+                    <input type="text" id="namefield" class="form-control" placeholder="enter your name...">
+                </div>
+
+                <div class="form-group">
+                    <label for="professionField">your profession</label>
+                    <input type="text" id="professionField" class="form-control" placeholder="enter your name...">
+                </div>
+
+                <div class="form-group">
+                    <label for="professionField">your profession</label>
+                    <input type="text" id="professionField" class="form-control" placeholder="enter your profession...">
+                </div>
+
+                <div class="form-group">
+                    <label for="contactfield">your contact</label>
+                    <input type="number" id="contactfield" class="form-control" placeholder="enter your number...">
+                </div>
+
+                <div class="form-group">
+                    <label for="emailfield">your email</label>
+                    <input type="email" id="emailfield" class="form-control" placeholder="enter your number...">
+                </div>
+
+                <div class="form-group">
+                    <label for="addressfield">your address</label>
+                    <textarea id="addressfield" class="form-control" placeholder="enter your address..." rows="5"></textarea>
+                </div>
+<!--------------------------mid-Section Complete------------------------------->
+<h4>important links...</h4>
+
+
+<div class="form-group">
+    <label for="instagramfield">instagram</label>
+    <input type="text" id="instagramfield" class="form-control" placeholder="enter here...">
+</div>
+
+<div class="form-group">
+    <label for="linkedinfield">linkedin</label>
+    <input type="text" id="linkedinfield" class="form-control" placeholder="enter here...">
+</div>
+
+
+</div>
+<!-- Section 1 End -->
+<!---------------------------------------------------------------------------------------->
+<!---------------------------------------------------------------------------------------->
+<div class="res-Colum2 common-colums">
+<h2>professional information</h2>
+
+<div class="form-group " id="Ed">
+    <label for="">education</label>
+
+    <textarea class="form-control " id="edutextfield" rows="2" placeholder="enter here..."></textarea>
+
+    <textarea class="form-control " id="eduYearfield" rows="2" placeholder="enter Since Year from to Year..."></textarea>
+
+    <textarea class="form-control " id="eduDetailfield" rows="2" placeholder="enter Education Details..."></textarea>
+
+    <!-- secondary Education input form -->
+
+    <label for="">Secondary Education</label>
+
+    <textarea class="form-control " id="SecField" rows="2" placeholder="enter here..."></textarea>
+
+    <textarea class="form-control " id="SecField2" rows="2" placeholder="enter Since Year from to Year..."></textarea>
+
+    <textarea class="form-control " id="SecField3" rows="2" placeholder="enter Education Details..."></textarea>
+</div>
+
+<div class="form-group" id="We">
+    <label for="">work Experience</label>
+    <textarea class="form-control " id="Wetextfield" rows="2" placeholder="enter here..."></textarea>
+
+    <textarea class="form-control " id="Wetextfield2" rows="2" placeholder="enter here..."></textarea>
+    <!-- 2nd Expirence -->
+    <textarea class="form-control " id="Wetextfield3" rows="2" placeholder="enter here..."></textarea>
+
+    <textarea class="form-control " id="Wetextfield4" rows="2" placeholder="enter here..."></textarea>
+
+</div>
+
+<div class="form-group" id="Sk">
+
+    <label for="">skills</label>
+    <input class="form-control skfield" type="text" id="formskills" placeholder="enter Skills...">
+
+</div>
+
+<div class="form-group" id="LG">
+
+    <label for="">languages</label>
+    <input  class="form-control lgfield" id="lgForm" placeholder="enter here...">
+
+</div>
+
+</div>
+
+
+</div>
+<div style="text-align: center;" class="button-generator" id="Generatorbtn">
+<button class="gnrt">Generate Now</button>
+</div>
+</div>
+
+<!-----------------------------------------------static resume + dynamic-------------------->
+<!-----------------------------------------------static resume + dynamic-------------------->
+<div class="crt-rsm-container">
+
+    <!-- Static-resume Start -->
+    <div class="container" id="StaticResumeCreate">
+        <div class="inTwo">
+            <div class="colum1">
+                <div class="img-text">
+                    
+            
+            <img class="image-setting" src="./assets/fatima.png" alt="image" height="300px">
+
+            <div class="intro">
+                <h1 id="staticName">Fatima
+                    <br>
+                    Mudassir
+                </h1>
+                <p id="professionP">Full stack devolper</p>
+            </div>
+
+        </div>
+            <div class="skill-lang">
+                <div class="skills common">
+                    <h3>Skills</h3>
+                    <ul id="staticSkill" class="common">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Typescript</li>
+                        <li>Next.js</li>
+                    </ul>
+                </div>
+
+                <div class="languages common">
+                    <h3>languages</h3>
+                    <ul id="lgStatic" class="common">
+                        <li>English</li>
+                        <li>Urdu</li>
+                    </ul>
+                </div>
+            </div>
+
+            
+        </div>
+         <!------------------------------------------------>
+         <div class="colum2">
+             
+             <div class="education EduExp-align">
+                 <h3 class="title-set">Education</h3>
+                 
+                <ol>
+                    <li>
+                        <div class="heading">
+                            <p ><b id="eduText">university of Karachi</b></p>
+                            <p><b id="eduYear">2012-2015</b></p>
+                            <p id="eduDetail">Completed a Bachelor's degree in Computer science from the University of Karachi in 2015.</p>
+                        </div>
+                    </li>
+    
+                    <li>
+                        <div class="heading">
+                            <p><b id="SecFieldUi">Governor House</b></p>
+                            <p><b id="SecYearUi">2023-2025</b></p>
+                            <p id="SecDetailUi">Currently enrolled in the Governor Sindh Initiative for AI, Metaverse, and Web 3.0, actively learning advanced web development skills, including TypeScript and Next.js.</p>
+                        </div>
+                    </li>
+                </ol>
+
+            </div>
+    
+            
+                <div class="experience EduExp-align">
+                    <h3 class="title-set">Work Experience</h3>
+
+                    <ol>
+                        <li>
+                            <div class="heading">
+                                <p><b id="wetext">Frontend Devolper</b></p>
+                                
+                                <p id="weDetail">Highly motivated individual with a dual skill set in web development and graphic design. Experienced in graphic and logo design, with a portfolio of completed projects showcasing creativity and attention to detail.</p>
+                            </div>
+                        </li>
+        
+                        <li>
+                            <div class="heading">
+                                <p><b id="wetext2">Governor Sindh Initiative for AI, Metaverse, and Web 3.0</b></p>
+                                <p id="weDetail2"> Currently enhancing web development skills through the Governor Sindh Initiative for AI, Metaverse, and Web 3.0, eager to contribute to a dynamic team.</p>
+                            </div>
+                        </li>
+                    </ol>
+
+                </div>
+           
+    
+                <div class="contact-me">
+                    <h3>Contact</h3>
+                    
+                    <div class="icon-det">
+
+                        
+                        <div class="icon-num">
+                            <i class="fa-solid fa-address-book"></i>
+                            <p id="contactid">0304-2325090</p>
+                    </div>
+
+                    <div class="icon-num">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p id="emailStatic">shiza.siddiq@gmail.com</p>
+                    </div>
+
+                    <div class="icon-num">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p id="textEmail">Karachi</p>
+                    </div>
+
+                    <div class="icon-num">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <p id="linksfb"><a href="https://www.linkedin.com/in/fatima-shoaib-a2a9a2296/">Fatima Mudassir / Linkedin</a></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- --------containerEnd --------------------- -->
+<div class="crt-rsm">
+    <p id="p1">click to Create Resume</p>
+    <button style="padding: 15px; color: rgb(250, 255, 175);
+    background-color: rgb(15, 103, 177);
+    "  id="crt-rsm-js">Create Resume</button>
+   </div>
+
+</div>
+<script src="functionality.js"></script>
+</body>
+</html>
